@@ -1,5 +1,4 @@
 const connection = require("../db");
-
 class School {
     constructor(name, address, latitude, longitude) {
         this.name = name;
